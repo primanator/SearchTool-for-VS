@@ -1,0 +1,2 @@
+# SearchTool-for-VS
+This code recursively follows through all of the directories and files in your Visual Studio folder (written on VS13) and checks the latest year when the library (.cpp\.h\.c) was modified.You should also change the directory of VS on your PC in main() method for proper work. This code could also be used for example to modifying files and adding some code to each by changing the rights of opening file, but the algorithm will stay the same.
