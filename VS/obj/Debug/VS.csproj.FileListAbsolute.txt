@@ -1,0 +1,5 @@
+D:\Projects\VS\VS\bin\Debug\VS.exe.config
+D:\Projects\VS\VS\bin\Debug\VS.exe
+D:\Projects\VS\VS\bin\Debug\VS.pdb
+D:\Projects\VS\VS\obj\Debug\VS.exe
+D:\Projects\VS\VS\obj\Debug\VS.pdb
