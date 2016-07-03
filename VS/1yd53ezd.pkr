@@ -11,18 +11,18 @@ namespace VS
 {
     class FileWork
     {
-        private int[] values = new int[16];
-        private string[] years = new string[16];
+        public int[] values = new int[16];
+        public string[] years = new string[16];
 
-        public int this[Int16 index]
+        public int this[int index]
         {
-            private set { values[index] = value; }
+            set { values[index] = value; }
             get { return values[index]; }
         }
 
-        public string this[Int32 index]
+        public string this[int index]
         {
-            get { return years[index]; }
+
         }
         public FileWork()
         {

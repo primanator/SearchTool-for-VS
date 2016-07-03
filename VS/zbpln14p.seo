@@ -12,38 +12,34 @@ namespace VS
     class FileWork
     {
         private int[] values = new int[16];
-        private string[] years = new string[16];
+        //private string[] years = new string[16];
 
-        public int this[Int16 index]
-        {
-            private set { values[index] = value; }
-            get { return values[index]; }
-        }
+        //public int this[int index]
+        //{
+        //    private set { values[index] = value; }
+        //    get { return values[index]; }
+        //}
 
-        public string this[Int32 index]
-        {
-            get { return years[index]; }
-        }
+        private Hashtable years = new Hashtable();
         public FileWork()
         {
-            for (int i = 0; i < 16; i++)
-                values[i] = 0;
-            years[0] = "2000";
-            years[1] = "2001";
-            years[2] = "2002";
-            years[3] = "2003";
-            years[4] = "2004";
-            years[5] = "2005";
-            years[6] = "2006";
-            years[7] = "2007";
-            years[8] = "2008";
-            years[9] = "2009";
-            years[10] = "2010";
-            years[11] = "2011";
-            years[12] = "2012";
-            years[13] = "2013";
-            years[14] = "2014";
-            years[15] = "2015";
+            years.Add("2000", 0);
+            years.Add("2001", 1);
+            years.Add("2002", 2);
+            years.Add("2003", 3);
+            years.Add("2004", 4);
+            years.Add("2005", 5);
+            years.Add("2006", 6);
+            years.Add("2007", 7);
+            years.Add("2008", 8);
+            years.Add("2009", 9);
+            years.Add("2010", 10);
+            years.Add("2011", 11);
+            years.Add("2012", 12);
+            years.Add("2013", 13);
+            years.Add("2014", 14);
+            years.Add("2015", 15);
+            years.Add("2016", 16);
         }
 
         public void OutputFile(string path)

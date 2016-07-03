@@ -14,36 +14,39 @@ namespace VS
         private int[] values = new int[16];
         private string[] years = new string[16];
 
-        public int this[Int16 index]
+        public int this[int index]
         {
             private set { values[index] = value; }
             get { return values[index]; }
         }
 
-        public string this[Int32 index]
+        public string this[int index]
         {
             get { return years[index]; }
         }
         public FileWork()
         {
             for (int i = 0; i < 16; i++)
+            {
                 values[i] = 0;
-            years[0] = "2000";
-            years[1] = "2001";
-            years[2] = "2002";
-            years[3] = "2003";
-            years[4] = "2004";
-            years[5] = "2005";
-            years[6] = "2006";
-            years[7] = "2007";
-            years[8] = "2008";
-            years[9] = "2009";
-            years[10] = "2010";
-            years[11] = "2011";
-            years[12] = "2012";
-            years[13] = "2013";
-            years[14] = "2014";
-            years[15] = "2015";
+                years[i] = "2000" + (char)(i - 48);
+            }
+            //years[0] = "2000";
+            //years[1] = "2001";
+            //years[2] = "2002";
+            //years[3] = "2003";
+            //years[4] = "2004";
+            //years[5] = "2005";
+            //years[6] = "2006";
+            //years[7] = "2007";
+            //years[8] = "2008";
+            //years[9] = "2009";
+            //years[10] = "2010";
+            //years[11] = "2011";
+            //years[12] = "2012";
+            //years[13] = "2013";
+            //years[14] = "2014";
+            //years[15] = "2015";
         }
 
         public void OutputFile(string path)

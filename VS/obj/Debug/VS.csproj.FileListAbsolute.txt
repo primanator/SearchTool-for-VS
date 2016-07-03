@@ -3,3 +3,9 @@ D:\Projects\VS\VS\bin\Debug\VS.exe
 D:\Projects\VS\VS\bin\Debug\VS.pdb
 D:\Projects\VS\VS\obj\Debug\VS.exe
 D:\Projects\VS\VS\obj\Debug\VS.pdb
+D:\Git_Projects\VS\VS\bin\Debug\VS.exe.config
+D:\Git_Projects\VS\VS\obj\Debug\VS.exe
+D:\Git_Projects\VS\VS\obj\Debug\VS.pdb
+D:\Git_Projects\VS\VS\bin\Debug\VS.exe
+D:\Git_Projects\VS\VS\bin\Debug\VS.pdb
+D:\Git_Projects\VS\VS\obj\Debug\VS.csprojResolveAssemblyReference.cache
